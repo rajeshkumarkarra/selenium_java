@@ -15,7 +15,7 @@ public class TitleVerify {
  * 5. campare title with the expected title
  * 6. close browser
  */
-        System.setProperty("webdriver.chrome.driver", "G:\\SeleniumSamreen\\TEST\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/home/rajesh/Downloads/chromedriver");
         WebDriver driver=new ChromeDriver();        
         driver.navigate().to("http://seleniumhq.org");
         String actualTitle=driver.getTitle();
